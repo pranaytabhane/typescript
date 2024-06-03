@@ -38,6 +38,11 @@ array.push("new user")
 
 const array2: number[] = [12]
 
+const array3: number[][] = [
+    [12,34],
+    [45,60]
+]
+
 /** ENUM- it is used to create set of name constant > if no value is assigned for enum value it will start from 0 and if it defined then the next value is start from next value(if not assigned) as shown in below example*/
 
 enum Data {
@@ -67,4 +72,7 @@ const spriderman: Heros = Heros.Spriderman  // Output: 16
 const thor: Heros = Heros.Thor  // Output: 17
 
 console.log(superman, batman, spriderman, thor);
-console.log('done');
+
+/** Tuple- Is a fixed length of array */
+
+const data: [number, string, boolean] = [12, "user", true]
